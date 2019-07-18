@@ -1,0 +1,9 @@
+enum ColorType {
+	RED
+	BLUE
+	GREEN
+}
+
+type Query {
+	setFavouriteColor(color: ColorType): String
+}
